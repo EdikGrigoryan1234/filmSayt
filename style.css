@@ -96,15 +96,18 @@ height: 40px;
 }
 .movies_card{
 	width: 400px;
-	height: 500px;
+	height: auto;
 	text-align: center;
 	display: flex;
 	color: #fff;
 	gap: 70px;
 	border: 1px solid #fff;
+	flex-direction:column;
+	justify-content: space-between;
 	background-color: #030104;
 	border-radius:30px;
 	overflow: hidden;
+	padding-bottom: 5px;
 }
 
 #popup{
